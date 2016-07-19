@@ -1,0 +1,20 @@
+{
+    "name": "dkplus/annotations",
+    "description": "Annotations to give classes a semantic meaning.",
+    "type": "library",
+    "require": {
+        "doctrine/annotations": "^1.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oskar Bley",
+            "email": "oskar@programming-php.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dkplus\\Annotations\\": "src/"
+        }
+    }
+}
